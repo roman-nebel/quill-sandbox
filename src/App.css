@@ -1,5 +1,26 @@
+.ql-container {
+  font-size: 16px !important;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.ql-container span {
+  margin: -1px;
+  padding: 1px;
+  border-radius: 4px;
+}
+
 .ql-highlightText div{
   border-radius: 50%;
   width: 16px;
   height: 16px;
+}
+
+.ql-formats.ql-highlight button.highlightItem {
+  padding: 3px;
+  width: auto;
+}
+
+.ql-formats.ql-highlight button.highlightItem._hidden {
+  display: none !important;
 }
